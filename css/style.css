@@ -129,7 +129,7 @@ body{
 
 
 #contributionpage {
-    background: #FAEBD7;
+    background: #FFE5B4;
 }
 #contributionpage h1{
     font-size: 5vw;
@@ -183,6 +183,10 @@ body{
 
 .carousel-indicators :active{
     background-color: #000000;
+}
+
+#achievementpage{
+    background-color: #FFFACD;
 }
 @keyframes glow{
     0%,100%{

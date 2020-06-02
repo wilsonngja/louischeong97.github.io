@@ -186,15 +186,26 @@ body{
 }
 
 #achievementpage{
-    background-color: #FFFACD;
+    background-color: #ffffff;
+    width:100%;
 }
 
+#achievementpage .row{
+    width:100%;
+}
 #achievementpage h1{
     font-size: 5vw;
-    color: #759CC9;
+    color: #FFCE00;
     padding-top: 3.2%;
-    text-shadow: 0 0 5px #759CC9;
+    text-shadow: 0 0 10px #E08506;
 }
+
+#achievementpage img{
+    width:22.5%;
+    margin-left: 7.5%;
+    margin-right:7.5%;
+}
+
 @keyframes glow{
     0%,100%{
         box-shadow: 0 0 50px #95D6DC;
@@ -226,6 +237,10 @@ footer p{
     margin: 0 0 0 0;
 }
 
+footer a{
+    padding-top:2% !important;
+    padding-bottom:2% !important;
+}
 
 @media (min-width: 1920px){
     #titlepage img{

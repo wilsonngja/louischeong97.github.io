@@ -188,6 +188,13 @@ body{
 #achievementpage{
     background-color: #FFFACD;
 }
+
+#achievementpage h1{
+    font-size: 5vw;
+    color: #759CC9;
+    padding-top: 3.2%;
+    text-shadow: 0 0 5px #759CC9;
+}
 @keyframes glow{
     0%,100%{
         box-shadow: 0 0 50px #95D6DC;

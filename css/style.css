@@ -48,7 +48,7 @@ body{
     width: 100%;
 }
 #timelinepage h1{
-    font-size: 4vw;
+    font-size: 5vw;
     color: #759CC9;
     padding-top: 3.2%;
     text-shadow: 0 0 5px #759CC9;
@@ -146,14 +146,23 @@ body{
     width: 20% !important;
 
 }
+.contributionspacing {
+    padding-top: 3rem;
+    padding-bottom:3rem;
+}
+
+.contributionspacing2{
+    padding-top:1.5rem;
+    padding-bottom:1.5rem;
+}
 
 .carousel-control-prev, .carousel-control-next{
     background-color: #FCEBD7;
 }
 
 .carousel-item img{
-    width:50%;
-    margin-left: 25%;
+    width:60%;
+    margin-left: 20%;
 }
 
 .carousel-caption h3{
@@ -169,7 +178,7 @@ body{
     width:2% !important;
     border-radius: 75%;
     top: 50% !important;
-    left: 20% !important;
+    left:2% !important;
 }
 
 .carousel-control-next {
@@ -178,7 +187,7 @@ body{
     width:2% !important;
     border-radius: 75%;
     top: 50% !important;
-    left:77.5% !important;
+    right:2% !important;
 }
 
 .carousel-indicators :active{
@@ -186,7 +195,7 @@ body{
 }
 
 #achievementpage{
-    background-color: #ffffff;
+    background-color: #FAEBD7;
     width:100%;
 }
 
@@ -244,6 +253,8 @@ footer a{
     padding-bottom:2% !important;
 }
 
+
+
 @media (min-width: 1920px){
     #titlepage img{
         margin-top: 2%;
@@ -251,27 +262,42 @@ footer a{
     #titlepage p{
         padding-bottom: 5%;
     }
-    
-    .spacing{
-        padding-top: 8.5%;
+
+    .carousel-caption{
+        height:30% !important;
     }
 
-    .contributionspacing{
-        padding-top:2.5%;
-        padding-bottom:2.5%;
+    .carousel-caption h3{
+        font-size: 3vw;
     }
 
+    .carousel-caption h4{
+        font-size: 2.75vw;
+    }
+
+    .carousel-item img{
+        width:70%;
+        margin-left:15%;
+    }
     
 }
 
 @media (max-width: 1537px){
-    .spacing{
-        padding-top: 5%;
+    .carousel-caption{
+        height:25% !important;
     }
 
-    .contributionspacing{
-        padding-top:1.5%;
-        padding-bottom:1.5%;
+    .carousel-caption h3{
+        font-size: 2.75vw;
+    }
+
+    .carousel-caption h4{
+        font-size: 2.5vw;
+    }
+
+    .carousel-item img{
+        width:65%;
+        margin-left:17.5%;
     }
 }
 
@@ -293,15 +319,31 @@ footer a{
         font-size: 1.2vw;
     }
 
-    .spacing{
-        padding-top: 7.5%;
+    .contributionspacing{
+        padding-top:3.25% !important;
+        padding-bottom:3.25% !important;
+    }
+
+    .contributionspacing2{
+        padding-top:3.25% !important;
+        padding-bottom: 3.25% !important;
+    }
+
+    .carousel-caption{
+        height:30% !important;
     }
 
     .carousel-caption h3{
-        font-size: 2.25vw;
+        font-size: 3vw;
     }
+
     .carousel-caption h4{
-        font-size: 1.75vw;
+        font-size: 2.75vw;
+    }
+
+    .carousel-item img{
+        width:80%;
+        margin-left:10%;
     }
 
 
@@ -324,11 +366,43 @@ footer a{
         font-size: 5vw;
     }
 
-    #timelinepage h1{
-        padding-top:10%;
-        font-size: 5vw;
+    #achievementpage h1, #projectspage h1, #contributionpage h1, #timelinepage h1{
+        font-size:8vw;
     }
 
+    .contributionspacing{
+        padding-top:3% !important;
+        padding-bottom:3% !important;
+    }
+
+    .contributionspacing2{
+        padding-top:3% !important;
+        padding-bottom: 3% !important;
+    }
+
+    .carousel-caption{
+        height:30% !important;
+    }
+
+    .carousel-caption h3{
+        font-size: 3vw;
+    }
+
+    .carousel-caption h4{
+        font-size: 2.75vw;
+    }
+
+    .carousel-item img{
+        width:80%;
+        margin-left:10%;
+    }
+
+    #achievementpage img{
+        width:30%;
+        height:30%;
+        margin-left: 7.5%;
+        margin-right:7.5%;
+    }
 
 }
 
@@ -350,15 +424,69 @@ footer a{
         padding-left:7.5% !important;
         padding-right:7.5% !important;
     }
-    .
-    .timeline__content h2{
-        font-size: 2.5vw !important;
-    }
-    .timeline__content p{
-        font-size: 1.5vw !important;
+
+    #projectspage .card{
+        width:50%;
+        height:50%;
+        top: 50%;
+        left: 50%;
+        margin-left: -25%;
+        margin-top: 5%;
+        margin-bottom: 4%;
     }
 
-}   
+    #projectspage .card-body h2{
+        font-size: 3vw;
+        margin-bottom: 10%;
+    }
+    
+    #projectspage .card-body p{
+        font-size: 2.5vw;
+    }
+
+    .contributionspacing{
+        padding-top:3% !important;
+        padding-bottom:3% !important;
+    }
+
+    .contributionspacing2{
+        padding-top:3% !important;
+        padding-bottom: 3% !important;
+    }
+
+    .carousel-caption{
+        height:30% !important;
+    }
+
+    .carousel-caption h3{
+        font-size: 3vw;
+    }
+
+    .carousel-caption h4{
+        font-size: 2.75vw;
+    }
+
+    .timeline__content h2{
+        font-size: 3.5vw !important;
+    }
+    .timeline__content p{
+        font-size: 3.25vw !important;
+    }
+    .carousel-item img{
+        width:80%;
+        margin-left:10%;
+    }
+
+    #achievementpage h1, #projectspage h1, #contributionpage h1, #timelinepage h1{
+        font-size:8vw;
+    }
+    #achievementpage img{
+        width:30%;
+        height:30%;
+        margin-left: 7.5%;
+        margin-right:7.5%;
+    }
+}  
 
 @media (max-width: 650px){
     header a{
@@ -378,6 +506,25 @@ footer a{
         font-size: 8vw;
     }
 
+    #projectspage .card{
+        width:50%;
+        height:60%;
+        top: 50%;
+        left: 50%;
+        margin-left: -25%;
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+
+    #projectspage .card-body h2{
+        font-size: 4vw;
+        margin-bottom: 10%;
+    }
+    
+    #projectspage .card-body p{
+        font-size: 3vw;
+    }
+
     .timeline__content h2{
         font-size: 2.25vw;
     }
@@ -386,12 +533,52 @@ footer a{
         font-size: 1.5vw;
     }
 
+    
+    
+
+    #projectspage h1{
+        font-size:8vw;
+    }
+
+    #contributionpage h1{
+        font-size:8vw;
+    }
+
+    .contributionspacing{
+        padding-top:3% !important;
+        padding-bottom:3% !important;
+    }
+
+    .contributionspacing2{
+        padding-top:3% !important;
+        padding-bottom: 3% !important;
+    }
+
+    .carousel-caption{
+        height:30% !important;
+    }
+
     .carousel-caption h3{
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .carousel-caption h4{
-        font-size: 1.75vw;
+        font-size: 2.75vw;
+    }
+
+    .carousel-item img{
+        width:80%;
+        margin-left:10%;
+    }
+
+    #achievementpage h1{
+        font-size:8vw;
+    }
+    #achievementpage img{
+        width:30%;
+        height:30%;
+        margin-left: 7.5%;
+        margin-right:7.5%;
     }
     
 }
@@ -413,7 +600,7 @@ footer a{
     #titlepage p{
         font-size: 4vw;
     }
-
+    
     
     .timeline__content h2{
         font-size: 5vw;
@@ -423,12 +610,59 @@ footer a{
         font-size: 3vw !important;
     }
 
+    #projectspage .card{
+        width:60%;
+        height:60%;
+        top: 50%;
+        left: 50%;
+        margin-left: -30%;
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+
+    #projectspage .card-body h2{
+        font-size: 4vw;
+        margin-bottom: 10%;
+    }
+    
+    #projectspage .card-body p{
+        font-size: 3.25vw;
+    }
+
+    .contributionspacing{
+        padding-top:3% !important;
+        padding-bottom:3% !important;
+    }
+
+    .contributionspacing2{
+        padding-top:3% !important;
+        padding-bottom: 3% !important;
+    }
+
+    .carousel-caption{
+        height:30% !important;
+    }
     .carousel-caption h3{
-        font-size: 2.3vw;
+        font-size: 3.25vw;
     }
 
     .carousel-caption h4{
-        font-size: 2vw;
+        font-size: 3vw;
+    }
+
+    .carousel-item img{
+        width:80%;
+        margin-left:10%;
+    }
+
+    #achievementpage h1{
+        font-size:7vw;
+    }
+    #achievementpage img{
+        width:60%;
+        height:60%;
+        margin-left: 7.5%;
+        margin-right:7.5%;
     }
 
     
@@ -451,8 +685,10 @@ footer a{
 
     #titlepage p{
         width:85%;
+        margin-left: 7.5% !important;
         padding-right: 0% !important;
         margin-right: 0% !important;    
+        padding-left: 0% !important;
     }
 
     .timeline__content {
@@ -465,15 +701,56 @@ footer a{
     .timeline__content p{
         font-size: 3.5vw !important;
     }
-    
 
+    #projectspage .card{
+        width:70%;
+        height:70%;
+        top: 50%;
+        left: 50%;
+        margin-left: -35%;
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+
+    #projectspage .card-body h2{
+        font-size: 5vw;
+        margin-bottom: 10%;
+    }
+    
+    #projectspage .card-body p{
+        font-size: 3.5vw;
+    }
+    
+    .contributionspacing{
+        padding-top:2% !important;
+        padding-bottom:2% !important;
+    }
+
+    .contributionspacing2{
+        padding-top:2% !important;
+        padding-bottom: 2% !important;
+    }
+
+    .carousel-caption{
+        padding-top:0% !important;
+        padding-bottom:0% !important;
+        height:20% !important;
+    }
     .carousel-caption h3{
+        font-size:3.5vw;
         margin-bottom: 0 !important;
     }
     .carousel-caption h4{
         margin-bottom: 0;
-        font-size: 2vw !important;
+        font-size: 3vw !important;
     }
+
+    .carousel-item img{
+        width:80%;
+        margin-left:10%;
+    }
+
+    
 
  }
 
